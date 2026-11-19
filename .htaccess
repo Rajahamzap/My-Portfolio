@@ -1,0 +1,7 @@
+# Clean URLs (Apache): /resources -> resources.html
+RewriteEngine On
+# /services/ and /strategies/technical-seo/ (trailing slash) -> the .html file
+RewriteCond %{DOCUMENT_ROOT}/$1.html -f
+RewriteRule ^(.+)/$ /$1.html [L]
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html [L]

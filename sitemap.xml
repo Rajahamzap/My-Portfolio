@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://www.example.com/</loc></url>
+<url><loc>https://www.example.com/about</loc></url>
+<url><loc>https://www.example.com/portfolio</loc></url>
+<url><loc>https://www.example.com/resources</loc></url>
+<url><loc>https://www.example.com/certifications</loc></url>
+<url><loc>https://www.example.com/contact</loc></url>
+<url><loc>https://www.example.com/strategies</loc></url>
+<url><loc>https://www.example.com/services</loc></url>
+<url><loc>https://www.example.com/strategies/on-page-seo</loc></url>
+<url><loc>https://www.example.com/services/technical-seo</loc></url>
+<url><loc>https://www.example.com/strategies/geo-ai-seo</loc></url>
+<url><loc>https://www.example.com/services/on-page-seo</loc></url>
+<url><loc>https://www.example.com/strategies/off-page-seo</loc></url>
+<url><loc>https://www.example.com/services/off-page-seo</loc></url>
+<url><loc>https://www.example.com/strategies/technical-seo</loc></url>
+<url><loc>https://www.example.com/services/local-seo</loc></url>
+<url><loc>https://www.example.com/strategies/local-seo</loc></url>
+<url><loc>https://www.example.com/services/semantic-seo-entity-optimization</loc></url>
+<url><loc>https://www.example.com/services/geo-ai-search-optimization</loc></url>
+<url><loc>https://www.example.com/services/seo-audits-competitor-analysis</loc></url>
+<url><loc>https://www.example.com/services/keyword-research-content-strategy</loc></url>
+<url><loc>https://www.example.com/portfolio/vpnranks</loc></url>
+<url><loc>https://www.example.com/portfolio/all-about-ai</loc></url>
+<url><loc>https://www.example.com/portfolio/medical-lien-management</loc></url>
+<url><loc>https://www.example.com/portfolio/greensense-billing</loc></url>
+<url><loc>https://www.example.com/portfolio/virtual-mojoe</loc></url>
+</urlset>

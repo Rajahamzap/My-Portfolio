@@ -1,0 +1,896 @@
+{
+ "vpnranks": {
+  "name": "VPNRanks",
+  "slug": "vpnranks",
+  "url": "vpnranks.com",
+  "industry": "VPN, Privacy, Cybersecurity, Streaming & Affiliate Marketing",
+  "stage": "established",
+  "diagramPrimary": "affiliate",
+  "diagramSecondary": "",
+  "csTitle": "VPNRanks – Scaling Affiliate SEO Through Search Intent, Content Strategy & Authority Building",
+  "csIntro": "I worked on SEO strategies for VPNRanks, a competitive VPN and cybersecurity affiliate website. My work focused on improving organic visibility through search intent mapping, content optimization, technical SEO, competitor analysis, and strategic backlink acquisition.",
+  "snapshot": [
+   {
+    "label": "Website",
+    "value": "vpnranks.com"
+   },
+   {
+    "label": "Industry",
+    "value": "VPN, Privacy, Cybersecurity, Streaming & Affiliate Marketing"
+   },
+   {
+    "label": "Website type",
+    "value": "Large-scale affiliate website"
+   },
+   {
+    "label": "My role",
+    "value": "SEO Specialist – Affiliate SEO, Content Optimization & Organic Growth"
+   }
+  ],
+  "focus": [
+   "On-Page SEO",
+   "Keyword Research",
+   "Search Intent Mapping",
+   "Content Strategy",
+   "Semantic & Entity SEO",
+   "Technical SEO",
+   "Off-Page SEO",
+   "Competitor Backlink Analysis",
+   "Digital PR",
+   "Seasonal & Event-Based SEO"
+  ],
+  "challengeIntro": "VPNRanks competes in one of the most contested affiliate niches online. The goal was to grow organic visibility, strengthen topical relevance and support affiliate revenue through SEO processes that could scale across a large content library.",
+  "challenges": [
+   "A highly competitive VPN, privacy and cybersecurity search landscape where rankings are hard to win and easy to lose.",
+   "The same topic can be searched with informational, commercial or transactional intent, and each needs a different kind of page.",
+   "A large content library that needed consistent on-page standards rather than one-off fixes.",
+   "Strong country-specific demand, especially for streaming and sports queries, where a generic page does not match what searchers want.",
+   "Seasonal demand spikes around major sporting events that affiliate content had to be ready for.",
+   "Authority gaps against established competitors that had to be closed through quality backlinks."
+  ],
+  "strategy": [
+   {
+    "cat": "Keyword research & search intent mapping",
+    "icon": "target",
+    "worked": "Classifying keywords by search intent and deciding which type of page should answer each one.",
+    "strategy": "Keywords were grouped as informational, commercial or transactional, then matched to the format that serves that intent best: blogs, comparison pages or commercial landing pages.",
+    "implementation": "Every keyword group was assigned a content format and a primary and secondary intent before pages were written or updated.",
+    "why": "On an affiliate site a page that answers the wrong intent attracts the wrong visitors. Intent mapping kept research-stage and buying-stage searches on the pages built for them.",
+    "points": []
+   },
+   {
+    "cat": "On-page SEO & content structure",
+    "icon": "doc",
+    "worked": "A standardized keyword placement framework covering meta titles, meta descriptions, H1s, introductions, relevant headings and contextual mentions.",
+    "strategy": "Content was structured around primary and secondary search intent. The primary intent was answered immediately after the introduction, followed by supporting sections under a logical H2 and H3 hierarchy.",
+    "implementation": "The framework was applied as a repeatable standard so large numbers of pages could be optimized consistently.",
+    "why": "A repeatable standard made optimization scalable across a large content library and kept quality consistent from page to page.",
+    "points": [
+     "Meta titles and descriptions",
+     "H1s and introductions",
+     "Logical H2 and H3 hierarchies",
+     "Primary intent answered straight after the introduction"
+    ]
+   },
+   {
+    "cat": "Semantic SEO & content gap analysis",
+    "icon": "net",
+    "worked": "Expanding content with semantically related keywords, entities, supporting concepts and relevant subtopics, guided by competitor content gap analysis.",
+    "strategy": "Instead of repeating one phrase, pages were broadened to cover the topic the way searchers and competing pages do, filling the gaps that competitors covered and existing pages did not.",
+    "implementation": "Competitor content was reviewed for missing subtopics and entities, and the gaps were added to existing pages or planned into new content.",
+    "why": "Greater topical depth and content quality across the library strengthened relevance for competitive VPN and privacy queries.",
+    "points": []
+   },
+   {
+    "cat": "Region-specific content strategy",
+    "icon": "pin",
+    "worked": "Creating country-specific content instead of relying on one generic page per topic.",
+    "strategy": "A generic keyword such as \"How to Watch Rugby World Cup\" ignores the fact that viewing options differ by country. The strategy was to target the regional versions of the query so each page matched local search intent and streaming availability.",
+    "implementation": "Each regional page was written for the situation in its own country, reflecting how people there search and what they can access.",
+    "why": "Country-specific queries carry clear intent. A page built for that exact situation is a more precise answer than one broad article.",
+    "points": [
+     "How to Watch Rugby World Cup in the USA",
+     "How to Watch Rugby World Cup in the UK",
+     "How to Watch Rugby World Cup in France",
+     "How to Watch Rugby World Cup in Germany"
+    ]
+   },
+   {
+    "cat": "Seasonal & event-based SEO",
+    "icon": "spark",
+    "worked": "Planning and optimizing content around major sporting events.",
+    "strategy": "Large events create predictable spikes in search demand. Planning content around them let the site target that demand when it appeared, and gave affiliate content a clear commercial opportunity.",
+    "implementation": "Event content was planned and optimized for the search demand around each tournament.",
+    "why": "Seasonal demand created affiliate opportunities that evergreen pages alone would not have captured.",
+    "points": [
+     "Rugby World Cup",
+     "Cricket World Cup",
+     "Tennis Grand Slams"
+    ]
+   },
+   {
+    "cat": "Technical SEO",
+    "icon": "gear",
+    "worked": "Keeping a large, content-heavy site crawlable, indexable and free from duplication problems.",
+    "strategy": "Technical health was treated as a foundation: search engines needed to find, understand and index the right pages without confusion from duplicates or broken paths.",
+    "implementation": "Regular technical audits and monitoring covered the areas listed below.",
+    "why": "On a site with a large content library, small technical issues multiply. Ongoing monitoring protected the work done on content and links.",
+    "points": [
+     "XML sitemap management",
+     "Robots.txt optimization",
+     "Crawlability and indexation monitoring",
+     "Canonical tags",
+     "Redirect management",
+     "Duplicate content identification",
+     "Structured data",
+     "Technical SEO audits",
+     "Core Web Vitals and mobile usability monitoring"
+    ]
+   },
+   {
+    "cat": "Off-page SEO & authority building",
+    "icon": "link",
+    "worked": "Backlink analysis and outreach to close authority gaps against competitors.",
+    "strategy": "Competitor backlink and link gap analysis showed where authority was missing. Outreach then focused on qualified publishers, content-led link acquisition and a natural anchor text profile.",
+    "implementation": "Link prospects were qualified before outreach, publisher relationships were managed over time, and backlink quality was evaluated rather than judged on volume.",
+    "why": "Authority is a major ranking factor in the VPN niche. Quality-led link building supported the content and technical work.",
+    "points": [
+     "Competitor backlink analysis",
+     "Link gap analysis",
+     "Guest post outreach",
+     "Link prospect qualification",
+     "Publisher relationship management",
+     "Anchor text diversification",
+     "Backlink quality evaluation",
+     "Content-led link acquisition",
+     "Authority-focused link-building campaigns",
+     "Digital PR"
+    ]
+   }
+  ],
+  "resultsIntro": "These are the verified, project-level results for VPNRanks. They are separate measures and are not presented as the outcome of a single campaign.",
+  "resultMetrics": [
+   {
+    "value": "200,000+",
+    "label": "Peak monthly organic visits",
+    "type": "Peak traffic",
+    "note": ""
+   },
+   {
+    "value": "10×",
+    "label": "Year-over-year affiliate sales growth",
+    "type": "Year-over-year growth",
+    "note": "2023 compared with 2022"
+   },
+   {
+    "value": "DR 63",
+    "label": "Domain Rating",
+    "type": "Domain Rating",
+    "note": ""
+   }
+  ],
+  "outcomes": [],
+  "resultsNote": "The SEO work contributed to affiliate sales growth through search intent alignment, content strategy, seasonal opportunities and conversion-focused optimization.",
+  "roleTitle": "SEO Specialist – Affiliate SEO, Content Optimization & Organic Growth",
+  "roleSummary": "I worked across the full organic search workflow for VPNRanks, from deciding what to target to making sure pages could be found, understood and trusted by search engines.",
+  "roleList": [
+   "Keyword research and search intent classification",
+   "On-page SEO and content optimization at scale",
+   "Technical SEO audits and monitoring",
+   "Content strategy, including regional and seasonal planning",
+   "Competitor analysis and content gap research",
+   "Link-building initiatives and backlink evaluation"
+  ],
+  "related": [
+   "all-about-ai"
+  ]
+ },
+ "all-about-ai": {
+  "name": "All About AI",
+  "slug": "all-about-ai",
+  "url": "allaboutai.com",
+  "industry": "Artificial Intelligence, SaaS, Technology & AI Tools",
+  "stage": "established",
+  "diagramPrimary": "affiliate",
+  "diagramSecondary": "geo",
+  "csTitle": "All About AI – Building Topical Authority and Entity-Led Visibility in AI & Technology Search",
+  "csIntro": "I worked on SEO initiatives for All About AI, a website focused on artificial intelligence, AI tools and emerging technology. My work involved improving organic visibility through keyword research, search intent mapping, content optimization, topical depth, technical SEO and authority-building activities.",
+  "snapshot": [
+   {
+    "label": "Website",
+    "value": "allaboutai.com"
+   },
+   {
+    "label": "Industry",
+    "value": "Artificial Intelligence, SaaS, Technology & AI Tools"
+   },
+   {
+    "label": "Website type",
+    "value": "Technology and AI-focused content website"
+   },
+   {
+    "label": "My role",
+    "value": "SEO Specialist – AI & Technology SEO, Content Strategy and Authority Building"
+   }
+  ],
+  "focus": [
+   "On-Page SEO",
+   "Semantic SEO",
+   "Entity Optimization",
+   "Content Strategy",
+   "Topical Authority",
+   "Technical SEO",
+   "Digital PR",
+   "Off-Page SEO",
+   "GEO & AI Search Visibility"
+  ],
+  "challengeIntro": "AI and technology is a fast-moving subject area where new tools, brands and terms appear constantly. The goal was to grow organic visibility and be recognized as a credible source across the topic.",
+  "challenges": [
+   "A crowded field of AI and technology publishers competing for the same queries.",
+   "Constantly changing subject matter, so existing content needed regular refreshes to stay relevant.",
+   "Search that is increasingly about tools, brands and products (entities), not just keywords.",
+   "The need to show topical depth and credibility across a broad subject area.",
+   "Building authority through editorial links and research-led content, not volume.",
+   "A growing need to structure content so AI search platforms can understand and extract it."
+  ],
+  "strategy": [
+   {
+    "cat": "On-page SEO & content strategy",
+    "icon": "doc",
+    "worked": "Mapping keywords to search intent, then structuring and refreshing content around it.",
+    "strategy": "Each page was built around one primary intent with supporting secondary targets, a clear structure and content that covered what competing pages covered and more.",
+    "implementation": "Content gap analysis guided what to add. Semantic keywords were integrated naturally, existing content was refreshed, and internal links connected related pages.",
+    "why": "Aligning structure and depth with intent, and keeping content current, is what keeps pages competitive in a fast-moving topic.",
+    "points": [
+     "Keyword intent mapping",
+     "Primary and secondary keyword targeting",
+     "Content structure optimization",
+     "Competitor content gap analysis",
+     "Semantic keyword integration",
+     "Content refreshes",
+     "Strategic internal linking",
+     "Search intent alignment"
+    ]
+   },
+   {
+    "cat": "Entity & semantic SEO, topical authority",
+    "icon": "net",
+    "worked": "Optimizing content around the AI tools, brands, products, technologies and related entities that searchers actually look for.",
+    "strategy": "Instead of relying only on exact-match keywords, content was written to cover the entities and concepts that define each topic, which builds a more complete picture of subject coverage.",
+    "implementation": "Entities and related concepts were identified for each topic and worked into content and internal linking to develop depth across the subject area.",
+    "why": "Search engines increasingly interpret content through entities. Clear entity coverage and topical depth support authority for AI and technology topics.",
+    "points": []
+   },
+   {
+    "cat": "Technical SEO",
+    "icon": "gear",
+    "worked": "Keeping the site crawlable, indexable and technically sound.",
+    "strategy": "Technical audits and monitoring kept search engines able to access and interpret the right pages.",
+    "implementation": "Audits covered the areas listed below, with fixes prioritized by their effect on crawling and indexation.",
+    "why": "A clean technical foundation lets content and authority work translate into visibility.",
+    "points": [
+     "Crawlability and indexation management",
+     "XML sitemap and robots.txt management",
+     "Technical audits",
+     "Canonicalization",
+     "Redirects",
+     "Structured data",
+     "Mobile usability",
+     "Core Web Vitals monitoring"
+    ]
+   },
+   {
+    "cat": "Off-page SEO & digital PR",
+    "icon": "link",
+    "worked": "Building authority through competitor link research, outreach and research-driven editorial content.",
+    "strategy": "Competitor backlink and link gap analysis identified opportunities. Editorial content and research-driven pieces were developed to earn citations from relevant publications.",
+    "implementation": "Outreach was targeted, and content was created with editorial value so it could be cited, rather than only requested.",
+    "why": "Authority from relevant, credible publications strengthens trust for a website in a competitive topic area.",
+    "points": [
+     "Competitor backlink analysis",
+     "Link gap analysis",
+     "Strategic outreach",
+     "Editorial content development",
+     "Authority-focused link acquisition",
+     "Research-driven content for editorial citations"
+    ]
+   },
+   {
+    "cat": "GEO & AI search visibility",
+    "icon": "ai",
+    "worked": "Structuring content so AI search platforms can understand, extract and trust it.",
+    "strategy": "AI search favors clearly organized, well-supported content that answers the question quickly. The approach combined entity clarity, answer-first writing and credible supporting information.",
+    "implementation": "Content was formatted using the practices listed below. This page does not claim specific AI citations for All About AI.",
+    "why": "Content that is easy to extract and well supported is better positioned to be used by AI search platforms as well as traditional search.",
+    "points": [
+     "Structuring content for AI extraction",
+     "Entity optimization",
+     "Direct-answer introductions",
+     "Descriptive headings",
+     "Comparison tables and lists",
+     "Credible references and research",
+     "EEAT and topical authority"
+    ]
+   }
+  ],
+  "resultsIntro": "These are the verified, project-level results for All About AI. They are separate measures.",
+  "resultMetrics": [
+   {
+    "value": "140,000+",
+    "label": "Peak monthly organic visits",
+    "type": "Peak traffic",
+    "note": ""
+   },
+   {
+    "value": "DR 74",
+    "label": "Domain Rating",
+    "type": "Domain Rating",
+    "note": ""
+   },
+   {
+    "value": "Forbes",
+    "label": "Editorial backlink",
+    "type": "Authority achievement",
+    "note": "An editorial backlink from Forbes was part of the authority-building work."
+   }
+  ],
+  "outcomes": [],
+  "resultsNote": "The Forbes link is listed as an authority achievement only. It does not imply that Forbes endorses the website.",
+  "roleTitle": "SEO Specialist – AI & Technology SEO, Content Strategy and Authority Building",
+  "roleSummary": "I worked on the organic search strategy for All About AI, covering how content is planned and structured, how the site is technically maintained and how authority is built.",
+  "roleList": [
+   "Keyword research and search intent mapping",
+   "On-page and semantic SEO, including entity optimization",
+   "Content strategy, gap analysis and content refreshes",
+   "Technical SEO audits and monitoring",
+   "Digital PR and authority-building outreach",
+   "Structuring content for AI search visibility"
+  ],
+  "related": [
+   "vpnranks"
+  ]
+ },
+ "medical-lien-management": {
+  "name": "Medical Lien Management",
+  "slug": "medical-lien-management",
+  "url": "medicallienmanagement.com",
+  "industry": "Healthcare, Medical Lien Management, Medical Billing & Lead Generation",
+  "stage": "newer",
+  "diagramPrimary": "leadgen",
+  "diagramSecondary": "geo",
+  "csTitle": "Medical Lien Management – Building a Commercial SEO Foundation for Healthcare Lead Generation",
+  "csIntro": "I worked on establishing and improving the SEO foundation of Medical Lien Management, a healthcare-related lead-generation website. The focus was on building commercial search visibility, creating intent-based content, improving site architecture and supporting qualified lead generation through organic search.",
+  "snapshot": [
+   {
+    "label": "Website",
+    "value": "medicallienmanagement.com"
+   },
+   {
+    "label": "Industry",
+    "value": "Healthcare, Medical Lien Management, Medical Billing & Lead Generation"
+   },
+   {
+    "label": "Website type",
+    "value": "B2B lead-generation website"
+   },
+   {
+    "label": "My role",
+    "value": "SEO Specialist – Healthcare Lead Generation & AI Search Optimization"
+   }
+  ],
+  "focus": [
+   "On-Page SEO",
+   "Commercial Keyword Targeting",
+   "Site Architecture",
+   "Content Strategy",
+   "GEO & AEO",
+   "Technical SEO",
+   "Off-Page SEO",
+   "Local SEO",
+   "Internal Linking",
+   "Conversion-Focused Optimization"
+  ],
+  "challengeIntro": "Medical Lien Management is a newer B2B website in a specialist healthcare niche. The business objective was qualified leads, which meant building visibility for high-intent commercial searches from a standing start.",
+  "challenges": [
+   "Establishing an SEO foundation for a newer website with a young authority profile.",
+   "Competing for commercial searches where buyers compare providers.",
+   "Balancing pages built to convert with informational content that builds topical authority.",
+   "Structuring the site so each kind of page has a clear job and links to the others.",
+   "Building authority on a limited budget.",
+   "Becoming visible in AI search for commercial comparison queries as well as in traditional results."
+  ],
+  "strategy": [
+   {
+    "cat": "Site architecture",
+    "icon": "layers",
+    "worked": "Designing a three-category structure so each page type serves a different part of the search journey.",
+    "strategy": "Commercial pages convert, informational pages build authority, and comparison pages capture buyers who are already choosing between providers. Together they support topical authority and AI search presence.",
+    "implementation": "The site was organized into the three categories below, and each category was supported by internal links to the others.",
+    "why": "A clear architecture makes the site easier for search engines to understand and gives each type of searcher a page designed for them.",
+    "points": [
+     "Business Pages: commercial service pages designed to attract users with strong buying intent and generate qualified leads",
+     "Depth Blogs: informational content that establishes topical authority across relevant healthcare and medical billing topics",
+     "Best-of and Comparison Blogs: commercial-informational content for high-intent searches such as Best Medical Billing Companies, Best RCM Companies and Best Workers' Compensation Billing Companies"
+    ]
+   },
+   {
+    "cat": "On-page SEO & content optimization",
+    "icon": "doc",
+    "worked": "Optimizing commercial and supporting pages around keyword research and search intent.",
+    "strategy": "Pages were planned from keyword and intent research, with clear primary and secondary targets, a logical heading hierarchy and content that fills gaps competitors leave.",
+    "implementation": "On-page audits checked execution, and internal linking tied business pages to supporting and comparison content.",
+    "why": "Well-structured, intent-matched pages are the base that commercial visibility is built on.",
+    "points": [
+     "Keyword research",
+     "Search intent mapping",
+     "Primary and secondary keyword placement",
+     "Heading hierarchy",
+     "Content optimization",
+     "Entity optimization",
+     "Internal linking",
+     "On-page audits",
+     "Content gap analysis"
+    ]
+   },
+   {
+    "cat": "GEO & AEO",
+    "icon": "ai",
+    "worked": "Positioning comparison content so AI search can understand and surface it.",
+    "strategy": "Brand-first positioning, comparison content, direct answers, structured information and entity optimization were used to support visibility for commercial queries in AI search.",
+    "implementation": "The verified example is the query \"Best Workers' Compensation Billing Companies in California\", where this approach supported AI visibility.",
+    "why": "Buyers increasingly ask AI platforms for recommendations. Content built to be extracted gives the site a route into those answers.",
+    "points": [
+     "Content structuring for AI extraction",
+     "Conversational query research",
+     "Commercial query alignment",
+     "Relevant industry statistics and references",
+     "Topical depth",
+     "Schema implementation where appropriate"
+    ]
+   },
+   {
+    "cat": "Technical SEO",
+    "icon": "gear",
+    "worked": "Setting up and monitoring the technical basics of a newer site.",
+    "strategy": "A newer site needs search engines to find and index its pages reliably, so the technical groundwork was set up early and monitored.",
+    "implementation": "Setup and audits covered the items below.",
+    "why": "Crawlability and clean indexation are the precondition for any commercial visibility.",
+    "points": [
+     "XML sitemap setup",
+     "Robots.txt configuration",
+     "Crawlability",
+     "Indexation monitoring",
+     "Canonical tags",
+     "URL structure",
+     "Technical audits",
+     "Structured data"
+    ]
+   },
+   {
+    "cat": "Off-page SEO",
+    "icon": "link",
+    "worked": "Building authority in a cost-conscious way.",
+    "strategy": "With a limited budget, the focus was on credible, relevant sources of links and mentions rather than large paid programs.",
+    "implementation": "Work combined listings, research content and journalist-style outreach.",
+    "why": "Authority is needed to compete for commercial terms, and this approach builds it steadily and sustainably.",
+    "points": [
+     "Business listings",
+     "Niche directories",
+     "Citation building",
+     "Strategic link exchanges",
+     "Research-based content",
+     "HARO-style journalist outreach",
+     "Budget-conscious authority building"
+    ]
+   },
+   {
+    "cat": "Local SEO",
+    "icon": "pin",
+    "worked": "Adding regional relevance where it applies.",
+    "strategy": "Regional searches often show strong intent, so location-specific content and consistent business information were used to support them.",
+    "implementation": "Local work included the items below. No particular Google Business Profile ranking or Local Pack position is claimed.",
+    "why": "Regional targeting helps match searchers looking for providers in a specific area.",
+    "points": [
+     "Regional keyword targeting",
+     "Location-specific landing pages",
+     "Local competitor analysis",
+     "Google Business Profile optimization where applicable",
+     "NAP consistency",
+     "Local citations",
+     "LocalBusiness schema where applicable",
+     "Local link-building strategies"
+    ]
+   }
+  ],
+  "resultsIntro": "Results for Medical Lien Management. No traffic or lead numbers are published for this site on its own.",
+  "resultMetrics": [
+   {
+    "value": "DR 25",
+    "label": "Domain Rating",
+    "type": "Domain Rating",
+    "note": ""
+   },
+   {
+    "value": "AI visibility",
+    "label": "\"Best Workers' Compensation Billing Companies in California\"",
+    "type": "AI search visibility",
+    "note": ""
+   }
+  ],
+  "outcomes": [
+   "Improved crawlability and indexation",
+   "Growth in commercial keyword visibility",
+   "Page-one visibility for competitive commercial topics",
+   "AI visibility for \"Best Workers' Compensation Billing Companies in California\"",
+   "Inbound leads referred from ChatGPT"
+  ],
+  "resultsNote": "Across my healthcare lead-generation websites, organic search moved from no inbound leads to a steady flow of qualified leads. This is a portfolio-level result and is not a figure for Medical Lien Management alone.",
+  "roleTitle": "SEO Specialist – Healthcare Lead Generation & AI Search Optimization",
+  "roleSummary": "I built and managed the SEO foundation of the site, from how it is structured to how its content is written, technically maintained and made visible in AI search.",
+  "roleList": [
+   "Site architecture and commercial keyword strategy",
+   "On-page SEO and content strategy",
+   "Technical audits",
+   "GEO and AEO",
+   "Internal linking",
+   "Authority building"
+  ],
+  "related": [
+   "greensense-billing",
+   "virtual-mojoe"
+  ]
+ },
+ "greensense-billing": {
+  "name": "GreenSense Billing",
+  "slug": "greensense-billing",
+  "url": "greensensebilling.com",
+  "industry": "Medical Billing, Healthcare Revenue Cycle Management & Lead Generation",
+  "stage": "newer",
+  "diagramPrimary": "leadgen",
+  "diagramSecondary": "geo",
+  "csTitle": "GreenSense Billing – Commercial Keyword Strategy and Site Architecture for Medical Billing Lead Generation",
+  "csIntro": "I worked on SEO initiatives for GreenSense Billing, focusing on building organic visibility for medical billing and healthcare revenue cycle management services. The strategy emphasized commercial keyword targeting, supporting informational content, improved website architecture and a sustainable SEO foundation for lead generation.",
+  "snapshot": [
+   {
+    "label": "Website",
+    "value": "greensensebilling.com"
+   },
+   {
+    "label": "Industry",
+    "value": "Medical Billing, Healthcare Revenue Cycle Management & Lead Generation"
+   },
+   {
+    "label": "Website type",
+    "value": "B2B lead-generation website"
+   },
+   {
+    "label": "My role",
+    "value": "SEO Specialist – Medical Billing SEO & Lead Generation"
+   }
+  ],
+  "focus": [
+   "On-Page SEO",
+   "Commercial Keyword Research",
+   "Content Strategy",
+   "Site Architecture",
+   "Technical SEO",
+   "Internal Linking",
+   "Off-Page SEO",
+   "GEO & AEO"
+  ],
+  "challengeIntro": "Medical billing and revenue cycle management providers compete for the same commercial searches, so a newer site needs both a strong foundation and a clear reason for each page to exist.",
+  "challenges": [
+   "Building a sustainable SEO foundation for a newer lead-generation website.",
+   "Competing for commercial searches in the medical billing and RCM space.",
+   "Keeping service pages focused on conversion while still building authority through supporting content.",
+   "Creating an architecture that can grow without becoming disorganized.",
+   "Developing authority within a constrained budget.",
+   "Preparing content for AI-driven discovery as well as traditional search."
+  ],
+  "strategy": [
+   {
+    "cat": "Site architecture & keyword strategy",
+    "icon": "layers",
+    "worked": "Organizing the site into three content types, each serving a different stage of search intent.",
+    "strategy": "Business pages target buyers, depth blogs build topical authority, and best-of and comparison blogs capture people who are evaluating providers.",
+    "implementation": "Keywords were assigned to one of the three categories, and the categories were connected through internal links.",
+    "why": "Different stages of the buyer journey need different pages. A clear structure lets the site serve all of them and scale in an orderly way.",
+    "points": [
+     "Business Pages",
+     "Depth Blogs",
+     "Best-of and Comparison Blogs: for example Best Medical Billing Companies and Best RCM Companies",
+     "Relevant healthcare billing commercial topics"
+    ]
+   },
+   {
+    "cat": "On-page SEO & content optimization",
+    "icon": "doc",
+    "worked": "Standardizing how pages are researched, written and optimized.",
+    "strategy": "Pages were planned from intent mapping and gap analysis, and optimized with a consistent approach so quality did not depend on the page.",
+    "implementation": "On-page SEO SOPs were standardized so each page followed the same process.",
+    "why": "Standardized processes keep optimization consistent as a site grows.",
+    "points": [
+     "Keyword intent mapping",
+     "Primary and secondary keyword targeting",
+     "Semantic keyword coverage",
+     "Content hierarchy",
+     "Search intent alignment",
+     "Content gap analysis",
+     "Internal linking",
+     "Commercial-page optimization",
+     "Standardized on-page SEO SOPs"
+    ]
+   },
+   {
+    "cat": "Conversion-focused business pages",
+    "icon": "target",
+    "worked": "Keeping commercial pages focused on the buyer.",
+    "strategy": "Business pages were positioned around commercial intent rather than filled with excessive educational information, which belongs on supporting blogs.",
+    "implementation": "Pages emphasize clear service messaging, relevant benefits, trust signals and calls to action.",
+    "why": "A visitor with buying intent needs clarity and confidence. Focused pages support lead generation more directly than long educational ones.",
+    "points": [
+     "Clear service messaging",
+     "Relevant benefits",
+     "Trust signals",
+     "Calls to action"
+    ]
+   },
+   {
+    "cat": "GEO & AEO",
+    "icon": "ai",
+    "worked": "Preparing comparison and answer content for AI-driven search.",
+    "strategy": "Comparison content, direct-answer structures and entity clarity make content easier for AI search to understand. Only verified AI citation examples appear on this page, and none are claimed for this site.",
+    "implementation": "Content used the approaches listed below.",
+    "why": "Content built for extraction prepares the site for AI-driven discovery.",
+    "points": [
+     "Comparison content",
+     "Direct-answer content structures",
+     "Entity optimization",
+     "Brand-first positioning",
+     "AI-oriented query research",
+     "Semantic coverage",
+     "Supporting industry references"
+    ]
+   },
+   {
+    "cat": "Technical SEO",
+    "icon": "gear",
+    "worked": "Building a clean technical base that can scale.",
+    "strategy": "A tidy technical foundation, with sensible URLs and a scalable structure, avoids problems as content is added.",
+    "implementation": "Setup and audits covered the items below.",
+    "why": "Search engines can only rank what they can crawl and index reliably.",
+    "points": [
+     "Crawlability",
+     "Indexation",
+     "Sitemap and robots.txt",
+     "Canonicalization",
+     "SEO-friendly URLs",
+     "Technical audits",
+     "Structured data",
+     "Scalable website architecture"
+    ]
+   },
+   {
+    "cat": "Off-page SEO",
+    "icon": "link",
+    "worked": "Developing authority in a budget-conscious way.",
+    "strategy": "The focus was on relevant listings, research-led content and outreach rather than expensive link buying.",
+    "implementation": "Work combined the activities below.",
+    "why": "Steady authority development supports the commercial pages over time.",
+    "points": [
+     "Niche directories",
+     "Business listings",
+     "Strategic link exchanges",
+     "Research-driven content",
+     "Journalist outreach",
+     "Budget-conscious authority development"
+    ]
+   }
+  ],
+  "resultsIntro": "Verified results for GreenSense Billing. No traffic, lead or ranking figures are published for this site on its own.",
+  "resultMetrics": [
+   {
+    "value": "DR 13",
+    "label": "Domain Rating",
+    "type": "Domain Rating",
+    "note": ""
+   }
+  ],
+  "outcomes": [
+   "Improved organic visibility for commercial healthcare topics",
+   "Stronger site architecture and internal linking",
+   "Improved technical SEO foundation",
+   "Contribution to the broader lead-generation website growth strategy"
+  ],
+  "resultsNote": "These are qualitative outcomes. Traffic, lead and ranking figures are not published for this project.",
+  "roleTitle": "SEO Specialist – Medical Billing SEO & Lead Generation",
+  "roleSummary": "I handled the organic search strategy for the site, from keyword targeting and content to technical foundations and authority building.",
+  "roleList": [
+   "Commercial keyword targeting",
+   "Content optimization and on-page SEO SOPs",
+   "Technical SEO",
+   "Site architecture and internal linking",
+   "Authority-building initiatives"
+  ],
+  "related": [
+   "medical-lien-management",
+   "virtual-mojoe"
+  ]
+ },
+ "virtual-mojoe": {
+  "name": "Virtual MoJoe",
+  "slug": "virtual-mojoe",
+  "url": "virtualmojoe.com",
+  "industry": "Virtual Medical Assistants, Healthcare Support Services & Medical Practice Operations",
+  "stage": "newer",
+  "diagramPrimary": "leadgen",
+  "diagramSecondary": "geo",
+  "csTitle": "Virtual MoJoe – Content SEO and AI Search Visibility for Virtual Medical Assistant Services",
+  "csIntro": "I worked on SEO initiatives for Virtual MoJoe, focusing on building organic visibility around virtual medical assistant services and healthcare support solutions. The strategy combined commercial keyword targeting, informational content, topical authority development and AI search optimization to support qualified lead generation.",
+  "snapshot": [
+   {
+    "label": "Website",
+    "value": "virtualmojoe.com"
+   },
+   {
+    "label": "Industry",
+    "value": "Virtual Medical Assistants, Healthcare Support Services & Medical Practice Operations"
+   },
+   {
+    "label": "Website type",
+    "value": "B2B lead-generation website"
+   },
+   {
+    "label": "My role",
+    "value": "SEO Specialist – Healthcare Content SEO, GEO/AEO & Lead Generation"
+   }
+  ],
+  "focus": [
+   "On-Page SEO",
+   "Content Strategy",
+   "Commercial Keyword Targeting",
+   "GEO & AEO",
+   "Semantic SEO",
+   "Technical SEO",
+   "Internal Linking",
+   "Off-Page SEO"
+  ],
+  "challengeIntro": "Virtual medical assistant services are a newer, evolving category. The site needed to be found by practices researching the idea and by those ready to hire, in both traditional and AI search.",
+  "challenges": [
+   "Building organic visibility for a service category that many practices are still learning about.",
+   "Serving two audiences: practices researching how virtual assistants help, and those comparing providers.",
+   "Developing topical authority across healthcare practice operations and administrative support.",
+   "Making content easy for AI search platforms to extract for both commercial and informational questions.",
+   "Establishing authority on a cost-conscious basis.",
+   "Turning visibility into qualified leads."
+  ],
+  "strategy": [
+   {
+    "cat": "Site architecture",
+    "icon": "layers",
+    "worked": "Using three page categories so commercial and informational searches both have a purpose-built page.",
+    "strategy": "Commercial pages meet buyers, depth blogs explain the subject and build authority, and best-of and comparison blogs serve healthcare outsourcing research.",
+    "implementation": "Keywords and topics were assigned to the categories below and connected with internal links.",
+    "why": "The structure lets one site serve searchers at every stage, from curiosity to a decision.",
+    "points": [
+     "Business Pages: commercial service pages for users looking for virtual medical assistant services",
+     "Depth Blogs: informational articles on virtual medical assistants, healthcare practice operations and administrative support",
+     "Best-of and Comparison Blogs: commercial-informational content for queries about healthcare outsourcing and virtual medical assistant solutions"
+    ]
+   },
+   {
+    "cat": "On-page SEO & content strategy",
+    "icon": "doc",
+    "worked": "Researching, structuring and connecting content around search intent and topic clusters.",
+    "strategy": "Content was planned around intent and built into topical clusters, with semantic coverage and entities that make each page complete on its subject.",
+    "implementation": "Pages followed a consistent structure, were linked within their clusters, and were refreshed as needed.",
+    "why": "Topic clusters demonstrate depth and help search engines understand what the site is about.",
+    "points": [
+     "Search intent mapping",
+     "Keyword research",
+     "Primary and secondary keyword targeting",
+     "Content structure optimization",
+     "Semantic keyword coverage",
+     "Entity optimization",
+     "Content gap analysis",
+     "Internal linking",
+     "Topical cluster development",
+     "Content refreshes"
+    ]
+   },
+   {
+    "cat": "GEO & AEO",
+    "icon": "ai",
+    "worked": "Structuring content so AI search platforms can give direct answers from it.",
+    "strategy": "Clear headings, direct answers, relevant entities, supporting information and commercial context make content easier to understand and use.",
+    "implementation": "The verified AI visibility examples are one commercial query and one informational query.",
+    "why": "Showing up in AI answers for both comparison and informational questions widens how the site can be discovered.",
+    "points": [
+     "Commercial query: Best Virtual Medical Assistant Companies in Alabama",
+     "Informational query: How Virtual Medical Assistants Help Small Medical Practices Grow in 2026",
+     "AI extraction-friendly formatting",
+     "Conversational query research",
+     "Entity optimization",
+     "Comparison content",
+     "Supporting statistics and references",
+     "EEAT and topical authority",
+     "Technical crawlability and structured data"
+    ]
+   },
+   {
+    "cat": "Technical SEO",
+    "icon": "gear",
+    "worked": "Keeping the site crawlable, indexable and clearly structured.",
+    "strategy": "A sound technical base ensures the content and architecture can be found and interpreted.",
+    "implementation": "Setup and audits covered the items below.",
+    "why": "Technical clarity supports both traditional and AI search.",
+    "points": [
+     "XML sitemap management",
+     "Robots.txt",
+     "Crawlability and indexation",
+     "Canonicalization",
+     "Technical audits",
+     "Structured data",
+     "SEO-friendly URLs",
+     "Website architecture"
+    ]
+   },
+   {
+    "cat": "Off-page SEO",
+    "icon": "link",
+    "worked": "Developing authority cost-effectively.",
+    "strategy": "Listings, relevant link exchanges and research-led content were used rather than large paid programs.",
+    "implementation": "Work combined the activities below.",
+    "why": "Authority supports visibility for commercial and informational topics alike.",
+    "points": [
+     "Niche directories",
+     "Business listings",
+     "Relevant link exchanges",
+     "Research-based content",
+     "HARO-style journalist outreach",
+     "Cost-effective authority development"
+    ]
+   }
+  ],
+  "resultsIntro": "Verified results for Virtual MoJoe. No traffic or lead totals are published for this site.",
+  "resultMetrics": [
+   {
+    "value": "DR 12",
+    "label": "Domain Rating",
+    "type": "Domain Rating",
+    "note": ""
+   },
+   {
+    "value": "AI visibility",
+    "label": "\"Best Virtual Medical Assistant Companies in Alabama\"",
+    "type": "AI search visibility",
+    "note": "Commercial query"
+   },
+   {
+    "value": "AI visibility",
+    "label": "\"How Virtual Medical Assistants Help Small Medical Practices Grow in 2026\"",
+    "type": "AI search visibility",
+    "note": "Informational query"
+   }
+  ],
+  "outcomes": [
+   "Improved visibility for commercial and informational search topics",
+   "Contribution to the broader lead-generation website growth strategy",
+   "Inbound leads referred from ChatGPT"
+  ],
+  "resultsNote": "Traffic and lead totals are not published for this project. Inbound leads referred from ChatGPT are noted without a lead count.",
+  "roleTitle": "SEO Specialist – Healthcare Content SEO, GEO/AEO & Lead Generation",
+  "roleSummary": "I worked on the content and organic search strategy, including how content is structured and optimized and how it becomes visible in AI search.",
+  "roleList": [
+   "Content strategy and semantic SEO",
+   "Commercial keyword targeting",
+   "On-page optimization",
+   "Technical SEO",
+   "AI search visibility initiatives"
+  ],
+  "related": [
+   "medical-lien-management",
+   "greensense-billing"
+  ]
+ }
+}

@@ -1,0 +1,1 @@
+{"name":"raja-hamza-portfolio","version":"2.0.0","private":true,"scripts":{"start":"node server.js","test":"node test/contact-handler.test.js && node test/cms-api.test.js && node test/strategies.test.js","backup":"node scripts/backup.js","build":"node scripts/build-site.js","create-admin":"node scripts/create-admin.js"},"engines":{"node":">=22.13"}}

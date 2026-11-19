@@ -1,0 +1,19 @@
+(function(){'use strict';
+var A=window.__admin,V=window.__V,H=V.helpers,api=A.api,h=A.h,S=A.S,toast=A.toast,confirmDlg=A.confirmDlg;var app=document.getElementById('app'),viewRoot=null,topTitle=null,side=null,last=location.hash,guard=false;
+function seg(){return location.hash.replace(/^#\/?/,'').split('/').filter(Boolean)}
+function titleOf(r){var n=H.NAV.find(function(x){return x[0]===r});return n?n[1]:'Dashboard'}
+function render(){var s=seg(),r=s[0]||'dashboard';if(!V[r]){r='dashboard';s=['dashboard']}viewRoot.innerHTML='';topTitle.textContent=titleOf(r);document.title=titleOf(r)+' · Admin';[].forEach.call(side.querySelectorAll('a'),function(a){a.classList.toggle('on',a.getAttribute('data-r')===r)});side.classList.remove('open');window.scrollTo(0,0);S.dirty=false;last=location.hash;V[r](viewRoot,s)}
+window.__render=render;
+function shell(){app.innerHTML='';side=h('nav',{class:'side','aria-label':'Admin'},h('div',{class:'brand'},h('i',null,'RH'),'Admin Panel'));
+ H.NAV.forEach(function(n){side.append(h('a',{href:'#/'+n[0],'data-r':n[0]},H.ico(n[2]),n[1]))});side.append(h('span',{class:'sp'}),h('a',{href:'/',target:'_blank',rel:'noopener'},H.ico('M12 3a9 9 0 100 18 9 9 0 000-18zM3 12h18M12 3c3 3 3 15 0 18'),'View website'),
+  h('button',{class:'nv',type:'button',on:{click:function(){api('POST','/api/auth/logout',{}).catch(function(){}).then(function(){location.href='/admin/login.html'})}}},H.ico('M10 4H5v16h5M15 8l4 4-4 4M19 12H9'),'Logout'));
+ topTitle=h('h1');viewRoot=h('div',{class:'view'});
+ app.append(h('div',{class:'shell'},side,h('div',{class:'main'},h('header',{class:'top'},h('button',{class:'burger','aria-label':'Open menu',on:{click:function(){side.classList.toggle('open')}}},'☰'),topTitle,h('span',{class:'sp'}),h('span',{class:'who'},S.user.email)),viewRoot)));
+ addEventListener('hashchange',function(){if(guard){guard=false;return}if(S.dirty){var to=location.hash;guard=true;location.hash=last;confirmDlg('Leave without saving?','You have unsaved changes on this page. If you leave now they will be lost.','Leave page',true).then(function(ok){if(ok){S.dirty=false;guard=true;location.hash=to;setTimeout(render,0)}})}else render()});
+ addEventListener('beforeunload',function(e){if(S.dirty){e.preventDefault();e.returnValue=''}});render()}
+function forceChange(){app.innerHTML='';var cur=h('input',{type:'password',class:'in',autocomplete:'current-password'}),n1=h('input',{type:'password',class:'in',autocomplete:'new-password'}),n2=h('input',{type:'password',class:'in',autocomplete:'new-password'}),msg=h('div',{role:'alert'});
+ var f=function(l,i){return h('div',{class:'fld'},h('label',null,l),i)};
+ app.append(h('main',{class:'lg'},h('div',{class:'lgb'},h('div',{class:'brand'},h('i',null,'RH'),'Admin Panel'),h('h1',null,'Set a new password'),h('p',{class:'s'},'For security you must replace the initial password before continuing. Use at least 12 characters, including a letter and a number or symbol.'),msg,f('Current (initial) password',cur),f('New password',n1),f('Confirm new password',n2),
+  A.btn('Save and continue','pri',function(){if(n1.value!==n2.value){msg.className='msg err';msg.textContent='The new passwords do not match.';return}return api('POST','/api/auth/change-password',{current:cur.value,password:n1.value}).then(function(){location.reload()}).catch(function(e){msg.className='msg err';msg.textContent=e.message})}))))}
+fetch('/api/auth/me').then(function(r){if(r.status===401){location.href='/admin/login.html';return null}return r.json()}).then(function(m){if(!m)return;S.csrf=m.csrf;S.user=m.user;if(m.mustChange)return forceChange();return api('GET','/api/meta').then(function(meta){S.meta=meta;shell()})}).catch(function(e){app.innerHTML='';app.append(h('div',{class:'msg err',style:'margin:40px'},'Could not load the admin panel: '+e.message))});
+})();

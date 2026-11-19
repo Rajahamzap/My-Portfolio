@@ -1,0 +1,24 @@
+'use strict';
+const assert=require('assert'),H=require('../api/_lib/contact-handler');
+global.window={};require('../js/content.js');const C=window.SITE.contact;
+const good={name:'Test User',email:'test@example.com',company:'example.com',subject:'SEO Project Inquiry',budget:'$5,000+',message:'Hello, this is a test message for the form.',consent:true,hp:'',ts:1000};
+const env={RESEND_API_KEY:'k',CONTACT_TO_EMAIL:'owner@example.com',CONTACT_FROM_EMAIL:'Site <site@example.com>'};
+let sent=[];const ok=async(u,o)=>{sent.push(JSON.parse(o.body));return{ok:true,status:200}};
+const run=(o={})=>H.handleContact(Object.assign({method:'POST',headers:{},body:good,ip:'1.1.1.'+Math.floor(Math.random()*250),env,fetchImpl:ok,now:100000},o));
+(async()=>{
+ assert.deepStrictEqual(C.subjects,H.SUBJECTS);assert.deepStrictEqual(C.budgets,H.BUDGETS);console.log('options in sync');
+ let r=await run();assert.strictEqual(r.status,200);assert.strictEqual(sent.length,1);const m=sent[0];assert(m.text.includes('Test User')&&m.text.includes('$5,000+')&&m.text.includes('UTC')&&m.text.includes('Hello, this is'));assert.strictEqual(m.reply_to,'test@example.com');assert.deepStrictEqual(m.to,['owner@example.com']);console.log('valid -> sent with all fields');
+ r=await run({method:'GET'});assert.strictEqual(r.status,405);
+ r=await run({body:Object.assign({},good,{name:'',email:'bad',subject:'x',message:'short',consent:false})});assert.strictEqual(r.status,400);assert.deepStrictEqual(Object.keys(r.json.errors).sort(),['consent','email','message','name','subject']);console.log('server validation ok');
+ r=await run({body:Object.assign({},good,{budget:'a million'})});assert.strictEqual(r.status,400);
+ sent=[];r=await run({body:Object.assign({},good,{hp:'bot'})});assert.strictEqual(r.status,200);assert.strictEqual(sent.length,0);console.log('honeypot sends nothing');
+ r=await run({body:Object.assign({},good,{ts:99000})});assert.strictEqual(sent.length,0);console.log('too-fast sends nothing');
+ r=await run({env:{}});assert.strictEqual(r.status,503);assert.strictEqual(r.json.error,'not_configured');console.log('unconfigured -> 503, no fake success');
+ r=await run({fetchImpl:async()=>({ok:false,status:422})});assert.strictEqual(r.status,502);r=await run({fetchImpl:async()=>{throw new Error('x')}});assert.strictEqual(r.status,502);console.log('provider failure -> 502');
+ let kept=[];r=await run({env:{},store:d=>kept.push(d)});assert.strictEqual(r.status,200);assert.strictEqual(kept.length,1);assert.strictEqual(r.json.emailed,false);r=await run({store:()=>{throw new Error('db')},env:{}});assert.strictEqual(r.status,503);r=await run({fetchImpl:async()=>({ok:false,status:500}),store:d=>kept.push(d)});assert.strictEqual(r.status,200);assert.strictEqual(r.json.emailed,false);console.log('stored inquiry survives email failure; nothing stored + no email = error');
+ sent=[];await run({body:Object.assign({},good,{name:'<script>alert(1)</script>',message:'x<img src=x onerror=1>yyyyyy'})});assert(!sent[0].html.includes('<script>')&&!sent[0].html.includes('<img'));console.log('html escaped in email');
+ sent=[];await run({body:Object.assign({},good,{name:'A\r\nBcc: evil@x.com'})});assert(!/[\r\n]/.test(sent[0].subject));console.log('no header injection');
+ sent=[];await run({env:Object.assign({SEND_ACK:'true'},env)});assert.strictEqual(sent.length,2);assert.deepStrictEqual(sent[1].to,['test@example.com']);sent=[];await run();assert.strictEqual(sent.length,1);console.log('ack only when enabled');
+ r=await run({env:Object.assign({ALLOWED_ORIGIN:'https://a.com'},env),headers:{origin:'https://evil.com'}});assert.strictEqual(r.status,403);
+ let last;for(let i=0;i<7;i++)last=await run({ip:'9.9.9.9'});assert.strictEqual(last.status,429);console.log('rate limit 429 after 5');
+ console.log('ALL TESTS PASSED')})().catch(e=>{console.error(e);process.exit(1)});
